@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #C9A14A;
+  --color-gold-light: #D4B56A;
+  --color-gold-dark: #A8832E;
+  --color-green-uae: #006633;
+  --color-green-uae-light: #008844;
+  --color-green-uae-dark: #004422;
+  --color-sand: #F5E6C8;
+  --color-sand-light: #FAF0DC;
+  --color-sand-dark: #E8D4A8;
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/cairo/v28/SLXGc1nY6HkvaIo4BJ2l59E.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://fonts.gstatic.com/s/cairo/v28/SLXGc1nY6HkvaIo4BJ2l59E.woff2') format('woff2');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Cairo', 'Inter', system-ui, sans-serif;
+}
+
+[dir="rtl"] body {
+  font-family: 'Cairo', 'Inter', system-ui, sans-serif;
+}
+
+.dark {
+  color-scheme: dark;
+}
